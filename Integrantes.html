@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrantes</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <ul class="nav-menu">
+                <li><a href="index.html"><img src="Logo.png" alt="Logo" width="90px" height="90px"></a></li>
+                <li><a href="Quienes_somos.html">¿Quiénes somos?</a></li>
+                <li><a href="QueHacemos.html">¿Qué hacemos?</a></li>
+                <li><a href="Convocatoria.html">Convocatoria</a></li>
+                <li><a href="Integrantes.html">Integrantes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <section class="hero-section"
+            style="background-image: url('integrantesFotos/integrantes.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+            <div class="hero-text">
+                <h1 class="hero-title plain-title">Nos une la pasión por la ciencia y el deseo de compartirla con el
+                    mundo</h1>
+                <p class="hero-subtitle" style="color: #ffffff;">¡Conoce a nuestros integrantes!</p>
+            </div>
+        </section>
+
+
+
+
+
+        <!-- Modal -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2 id="modal-title">Nombre</h2>
+                <p id="modal-role">Rol</p>
+                <p id="modal-bio">Bio</p>
+            </div>
+        </div>
+
+        <section class="hero-section">
+            <h1 class="hero-title">Mesa Directiva</h1>
+        </section>
+        <section class="features">
+
+            <div class="feature-card" data-name="Arturo Gómez" data-role="Presidente"
+                data-bio="Apasionado por la divulgación científica y la educación juvenil."
+                style="border-left: 5px solid #56C596">
+
+                <div class="img-container" style="display: flex; justify-content: center;"> <img src="integrantesFotos/arturogomezgallegos.HEIC" alt="Presidente"
+                        class="feature-photo"> </div>
+                <h3 class="feature-title">Arturo Gómez Gallegos</h3>
+                <p class="feature-description">
+                    Presidente
+                </p>
+
+                <div style="margin-top: 1.5rem;">
+                    <a id="openModalBtn" class="btn-primary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Ver
+                        Más</a>
+                </div>
+            </div>
+            <div class="feature-card" data-name="Omar Ulises Díaz" data-role="Vicepresidente"
+                data-bio="Apasionado por la divulgación científica y la educación juvenil."
+                style="border-left: 5px solid #D75C66">
+                <div class="img-container" style="display: flex; justify-content: center;"><img src="integrantesFotos/omarulisesdiazhuerta.jpeg" alt="Vicepresidente"
+                        class="feature-photo"></div>
+                <h3 class="feature-title">Omar Ulises Díaz Huerta </h3>
+                <p class="feature-description">
+                    Vicepresidente
+                </p>
+                <div style="margin-top: 1.5rem;">
+                    <a id="openModalBtn" class="btn-primary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Ver
+                        Más</a>
+                </div>
+            </div>
+            <div class="feature-card" data-name="José María Arguijo" data-role="Secretario"
+                data-bio="Apasionado por la divulgación científica y la educación juvenil."
+                style="border-left: 5px solid #8C6BB1">
+                <div class="img-container" style="display: flex; justify-content: center;"><img src="integrantesFotos/josemariaarguijonunez.jpg" alt="Secretario"
+                        class="feature-photo"></div>
+                <h3 class="feature-title">José María Arguijo Núñez</h3>
+                <p class="feature-description">
+                    Secretario
+                </p>
+                <div style="margin-top: 1.5rem;">
+                    <a id="openModalBtn" class="btn-primary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Ver
+                        Más</a>
+                </div>
+            </div>
+            <div class="feature-card" data-name="Efraín Carrejo"
+                data-role="Coordinador de Actividades || Lic. en Biología"
+                data-bio="Soy estudiante de lic. en biología de profesión y explorador de naturaleza por convicción.🐍 Desde 2022 he colaborado como voluntario en el Laboratorio de Ecología y Biodiversidad Animal, y en 2024 trabajé como zookeeper en el Zoológico El Toluco. Actualmente, soy guardaparque auxiliar en la Reserva Natural Estatal de la Sierra Zapalinamé, donde cada día reafirmo mi interés por la conservación.
+
+Disfruto el senderismo y la fotografía📸, porque me permiten observar y compartir la biodiversidad desde otra perspectiva. Para mí, la mejor forma de aprender es divulgando: explicar la naturaleza es también entenderla mejor.🍃"
+                style="border-left: 5px solid #56C596">
+                <div class="img-container" style="display: flex; justify-content: center;"><img src="integrantesFotos/efraincarrejom.jpeg" alt="Actividades"
+                        class="feature-photo"></div>
+                <h3 class="feature-title">Efraín Carrejo M.</h3>
+                <p class="feature-description">
+                    Coordinador de Actividades
+                </p>
+                <div style="margin-top: 1.5rem;">
+                    <a id="openModalBtn" class="btn-primary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Ver
+                        Más</a>
+                </div>
+            </div>
+            <div class="feature-card" data-name="Carmen Salinas"
+                data-role="Coordinadora de Actividades || Estudiante de posgrado"
+                data-bio="Me interesa la divulgación científica porque, como decía Carl Sagan, “somos una forma del cosmos de conocerse a sí mismo”. Para mí, compartir ciencia es compartir asombro, abrir preguntas y reflexionar sobre el impacto ético del conocimiento.
+
+He participado en proyectos como:
+
+Verano de Investigación 18° en CIMAV, trabajando en la recuperación de rubidio a partir de lepidolita.
+
+Prácticas en la FGE en el área de Química Forense.
+
+Diseño de una planta piloto para obtención de pectina en la UTCJ.
+
+Estancia en la UACJ - IIT, Laboratorio BYNEFF, estudiando PVDF.Cu NPs para películas delgadas en biosensores y electrodos.
+
+Segundo lugar en el primer coloquio CITAF de la frontera con un proyecto sobre nanopartículas magnéticas de níquel para hipertermia, aceptado también por el CNyN-UNAM.
+
+Además de la investigación, disfruto leer, practicar taekwondo y ver la F1 — porque la curiosidad y la disciplina también se entrenan dentro y fuera del laboratorio."
+                style="border-left: 5px solid #56C596">
+                <div class="img-container" style="display: flex; justify-content: center;"><img src="integrantesFotos/carmensalinasreyes.jpeg" alt="Actividades"
+                        class="feature-photo"></div>
+                <h3 class="feature-title">Carmen Salinas Reyes</h3>
+                <p class="feature-description">
+                    Coordinadora de Actividades
+                </p>
+                <div style="margin-top: 1.5rem;">
+                    <a id="openModalBtn" class="btn-primary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Ver
+                        Más</a>
+                </div>
+            </div>
+            <div class="feature-card" data-name="Esmeralda Morales" data-role="Vocal || Ing. en Mecatrónica"
+                data-bio="Soy ingeniera en mecatrónica y actualmente estudio la maestría en Ingeniería Eléctrica💡. Mi color favorito es el amarillo porque me recuerda que siempre hay energía para aprender algo nuevo.
+
+En 2021 participé en el International Air and Space Program (IASP), una experiencia que reforzó mi interés por aplicar la tecnología a problemas reales. Actualmente trabajo como coordinadora del programa Microsoft TEALS en la zona norte 🤠, donde apoyo a docentes y estudiantes de preparatoria a aprender programación en Python.
+
+Mi tesis de maestría está enfocada en TinyML, un área que combina la inteligencia artificial con dispositivos de bajo consumo, para hacer más accesible la tecnología inteligente.
+
+En mi tiempo libre me gusta leer y nadar: creo que equilibrar mente y cuerpo ayuda a seguir creando ideas nuevas. 🏊‍♀️
+
+Estoy convencida de que la divulgación científica es clave para inspirar a más personas a interesarse por la tecnología y la innovación. " style="border-left: 5px solid #F4A261">
+                <div class="img-container" style="display: flex; justify-content: center;"><img src="integrantesFotos/esmeraldamorales.jpeg" alt="Vocal"
+                        class="feature-photo"></div>
+                <h3 class="feature-title">Esmeralda Morales</h3>
+                <p class="feature-description">
+                    Vocal
+                </p>
+                <div style="margin-top: 1.5rem;">
+                    <a id="openModalBtn" class="btn-primary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Ver
+                        Más</a>
+                </div>
+            </div>
+            <div class="feature-card" data-name="Josef Chávez" data-role="Vocal || Licenciatura en Física"
+                data-bio="'Estudié Física porque siempre me ha gustado entender cómo funciona el mundo y compartirlo con los demás. Mi color favorito es el morado 🟣, y cuando no estoy metido en temas de ciencia, disfruto leer ciencia ficción🤖, escuchar música o ir al gimnasio.
+
+                            Enseñar y compartir lo que sé es mi forma de acercar la física a más personas y demostrar que puede ser interesante y útil para todos.
+
+                            Si te interesa colaborar en proyectos de divulgación o tienes ideas para acercar la ciencia a la comunidad, me encantaría escuchar y sumar esfuerzos. 🤠'"
+                style="border-left: 5px solid #F4A261">
+                <div class="img-container" style="display: flex; justify-content: center;">
+                    <img src="integrantesFotos/josefchavezgurrola.png" alt="Vocal">
+                </div>
+                <h3 class="feature-title">Josef Chávez Gurrola</h3>
+                <p class="feature-description">
+                    Vocal
+                </p>
+                <div style="margin-top: 1.5rem;">
+                    <a id="openModalBtn" class="btn-primary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Ver
+                        Más</a>
+                </div>
+            </div>
+            <div class="feature-card" data-name="Alondra Arroyo"
+                data-role="Medios Audiovisuales || Estudiante de Lic. en Biotecnología"
+                data-bio="Mi color favorito es el azul y disfruto ver películas, leer y pintar; actividades que me ayudan a mirar la ciencia y la vida desde distintas perspectivas. 🎎
+
+Uno de mis libros favoritos es Prisionero del cielo de Carlos Ruiz Zafón 📚, porque creo que siempre hay historias que vale la pena descubrir y compartir.
+
+Me interesa la divulgación científica porque para mí, aprender ciencia también significa compartirla. Además, me gusta tratar con las personas y mostrar que siempre hay algo nuevo que podemos entender juntos. 🙌"
+                style="border-left: 5px solid #4D8FAC">
+                <div class="img-container" style="display: flex; justify-content: center;"><img src="integrantesFotos/alondraarroyorascon.jpeg" alt="Audiovisuales"
+                        class="feature-photo"></div>
+                <h3 class="feature-title">Alondra Arroyo Rascón</h3>
+                <p class="feature-description">
+                    Medios Audiovisuales
+                </p>
+                <div style="margin-top: 1.5rem;">
+                    <a id="openModalBtn" class="btn-primary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Ver
+                        Más</a>
+                </div>
+            </div>
+            <div class="feature-card" data-name="Carolina Delgado" data-role="Medios Audiovisuales"
+                data-bio="Apasionada por la divulgación científica y la educación juvenil."
+                style="border-left: 5px solid #4D8FAC">
+                <div class="img-container" style="display: flex; justify-content: center;"><img src="integrantesFotos/mariacarolinadelgadomota.jpg" alt="Audiovisuales"
+                        class="feature-photo"></div>
+                <h3 class="feature-title">María Carolina Delgado Mota</h3>
+                <p class="feature-description">
+                    Medios Audiovisuales
+                </p>
+                <div style="margin-top: 1.5rem;">
+                    <a id="openModalBtn" class="btn-primary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Ver
+                        Más</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+</body>
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-content">
+            <div class="footer-left">
+                <div class="logo">
+
+                    <img src="Logo.png" alt="Logo" width="90" height="90">
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/scj.cdjrz.mx/" class="social-icon" aria-label="Facebook">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/scj.cdjuarez/" class="social-icon" aria-label="Instagram">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-right">
+
+
+                <div class="footer-column">
+                    <h3>Conócenos</h3>
+                    <ul>
+                        <li><a href="Quienes_somos.html">¿Quiénes Somos?</a></li>
+                        <li><a href="QueHacemos.html">¿Qué hacemos?</a></li>
+                        <li><a href="Convocatoria.html">Convocatoria</a></li>
+                        <li><a href="Integrantes.html">Integrantes</a></li>
+                        <li><a href="https://scj.org.mx/">SCJ Nacional</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="copyright">
+                ©2025 Sociedad Científica Juvenil Sede Cd. Juárez.
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+</html>
+<style>
+    .feature-card .btn-primary {
+        align-self: center;
+        /* centers it horizontally */
+        margin-top: auto;
+        /* pushes it to the bottom */
+    }
+
+    .feature-icon {
+        width: 150px;
+        height: 150px;
+        background: var(--primary-gradient);
+        /* Optional */
+        border-radius: 50%;
+        margin: 0 auto 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        z-index: 2;
+        overflow: hidden;
+    }
+
+    .feature-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+
+    .features {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+        gap: 2rem;
+        margin-top: 4rem;
+    }
+
+
+    /* .feature-card {
+        border-left: 5px solid #ff5722;
+        padding: 1.0rem;
+    } */
+
+    .modal {
+        display: none;
+        /* Hidden by default */
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(2px);
+        background-color: rgba(0, 0, 0, 0.6);
+        /* dark background */
+        z-index: 1000;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modal-content {
+        background: white;
+        padding: 2rem;
+        border-radius: 0.5rem;
+        max-width: 500px;
+        width: 80%;
+        position: relative;
+        animation: fadeIn 0.3s ease;
+    }
+
+    .close-btn {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        cursor: pointer;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .hero-text {
+        background-color: rgba(0, 0, 0, 0.4);
+        /* black with transparency */
+        padding: 2rem;
+        border-radius: 1rem;
+        display: inline-block;
+        color: white;
+
+        /* makes text brighter */
+        .plain-title {
+            background: none;
+            -webkit-background-clip: initial;
+            -webkit-text-fill-color: #ffffff;
+            background-clip: initial;
+            color: #ffffff;
+            /* fallback for non-webkit browsers */
+        }
+
+    }
+
+    .img-container {
+        text-align: center;
+        /* centrar imagen horizontalmente */
+    }
+
+    .img-container img {
+        max-width: 100%;
+        /* no excede el ancho del contenedor */
+        height: auto;
+        /* mantiene proporción */
+        display: block;
+        /* evita espacios abajo de imagen inline */
+        margin: 0 auto;
+        /* centra como bloque */
+        border-radius: 15px;
+    }
+</style>
+<script>
+
+    const modal = document.getElementById('modal');
+    const closeBtn = document.querySelector('.close-btn');
+    const modalTitle = document.getElementById('modal-title');
+    const modalRole = document.getElementById('modal-role');
+    const modalBio = document.getElementById('modal-bio');
+
+    // Find all feature cards
+    const cards = document.querySelectorAll('.feature-card');
+
+    // Add click listener to each card
+    cards.forEach(card => {
+        card.addEventListener('click', () => {
+            // Get name and role from data attributes
+            const name = card.getAttribute('data-name');
+            const role = card.getAttribute('data-role');
+            const bio = card.getAttribute('data-bio');
+
+            // Fill the modal content
+            modalTitle.textContent = name;
+            modalRole.textContent = role;
+            modalBio.textContent = bio;
+            // Show modal
+            modal.style.display = 'flex';
+        });
+    });
+
+    // Close modal
+    closeBtn.addEventListener('click', () => {
+        modal.style.display = 'none';
+    });
+
+    // Close if clicking outside modal content
+    window.addEventListener('click', e => {
+        if (e.target === modal) {
+            modal.style.display = 'none';
+        }
+    });
+
+
+
+
+</script>
